@@ -1,3 +1,4 @@
+third_party/JUCE/
 /build/
 /build-ninja/
 /.vs/

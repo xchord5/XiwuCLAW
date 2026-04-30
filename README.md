@@ -1,5 +1,7 @@
 # XiwuCLAW
 
+![xiwuclaw智能助手](asset/xiwuclaw-banner.jpg)
+
 AI 音乐制作助手 —— 基于 Rust + LLM + VST3 插件的语音交互音乐编曲系统。
 
 ---
@@ -409,6 +411,14 @@ H:\xiwuclawALL\
 └── _python_runtime\      # 独立 Python 环境
     └── python.exe
 ```
+
+---
+
+## 功能特性
+
+![XiwuCLAW 功能特性](asset/xiwuclaw-features.jpg)
+
+---
 
 ## 许可证
 
