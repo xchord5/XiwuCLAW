@@ -1,0 +1,60 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://xiwuclaw.local/tone_spec_v1.schema.json",
+  "title": "XiwuCLAW Tone Spec v1",
+  "type": "object",
+  "required": ["spec_version", "id", "name", "osc", "env", "character", "eq4"],
+  "properties": {
+    "spec_version": { "type": "string", "const": "tone_spec_v1" },
+    "id": { "type": "string", "minLength": 1, "maxLength": 64 },
+    "name": { "type": "string", "minLength": 1, "maxLength": 128 },
+    "source": { "type": "string" },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "osc": {
+      "type": "object",
+      "required": ["sine", "saw", "square", "triangle", "noise", "sub_octave"],
+      "properties": {
+        "sine": { "type": "number", "minimum": 0, "maximum": 1 },
+        "saw": { "type": "number", "minimum": 0, "maximum": 1 },
+        "square": { "type": "number", "minimum": 0, "maximum": 1 },
+        "triangle": { "type": "number", "minimum": 0, "maximum": 1 },
+        "noise": { "type": "number", "minimum": 0, "maximum": 1 },
+        "sub_octave": { "type": "number", "minimum": 0, "maximum": 1 }
+      },
+      "additionalProperties": false
+    },
+    "env": {
+      "type": "object",
+      "required": ["attack", "decay", "sustain", "release"],
+      "properties": {
+        "attack": { "type": "number", "minimum": 0.001, "maximum": 3 },
+        "decay": { "type": "number", "minimum": 0.001, "maximum": 5 },
+        "sustain": { "type": "number", "minimum": 0, "maximum": 1 },
+        "release": { "type": "number", "minimum": 0.001, "maximum": 8 }
+      },
+      "additionalProperties": false
+    },
+    "character": {
+      "type": "object",
+      "required": ["drive", "brightness", "stereo_width"],
+      "properties": {
+        "drive": { "type": "number", "minimum": 0, "maximum": 1 },
+        "brightness": { "type": "number", "minimum": 0, "maximum": 1 },
+        "stereo_width": { "type": "number", "minimum": 0, "maximum": 1 }
+      },
+      "additionalProperties": false
+    },
+    "eq4": {
+      "type": "object",
+      "required": ["low", "low_mid", "high_mid", "high"],
+      "properties": {
+        "low": { "type": "number", "minimum": 0, "maximum": 1 },
+        "low_mid": { "type": "number", "minimum": 0, "maximum": 1 },
+        "high_mid": { "type": "number", "minimum": 0, "maximum": 1 },
+        "high": { "type": "number", "minimum": 0, "maximum": 1 }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,11 @@
+{
+  "spec_version": "tone_spec_v1",
+  "id": "fx_glass_fall",
+  "name": "Glass Fall FX",
+  "source": "xiwu_factory_expansion_2026_04_b",
+  "tags": ["fx", "glass", "fall", "factory-expanded"],
+  "osc": { "sine": 0.10, "saw": 0.39, "square": 0.10, "triangle": 0.19, "noise": 0.21, "sub_octave": 0.06 },
+  "env": { "attack": 0.03, "decay": 0.22, "sustain": 0.27, "release": 0.52 },
+  "character": { "drive": 0.36, "brightness": 0.83, "stereo_width": 0.56 },
+  "eq4": { "low": 0.15, "low_mid": 0.31, "high_mid": 0.81, "high": 0.92 }
+}

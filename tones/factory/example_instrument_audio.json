@@ -1,0 +1,32 @@
+{
+  "spec_version": "tone_spec_v1",
+  "id": "example_instrument_audio",
+  "name": "Example Instrument Audio",
+  "source": "tmp_js2max_exp/example_instrument_audio.maxpat",
+  "tags": ["demo", "instrument", "audio-augmented", "amxd-migrated"],
+  "osc": {
+    "sine": 0.46,
+    "saw": 0.34,
+    "square": 0.18,
+    "triangle": 0.29,
+    "noise": 0.03,
+    "sub_octave": 0.31
+  },
+  "env": {
+    "attack": 0.010,
+    "decay": 0.28,
+    "sustain": 0.63,
+    "release": 0.42
+  },
+  "character": {
+    "drive": 0.27,
+    "brightness": 0.58,
+    "stereo_width": 0.34
+  },
+  "eq4": {
+    "low": 0.48,
+    "low_mid": 0.46,
+    "high_mid": 0.63,
+    "high": 0.74
+  }
+}

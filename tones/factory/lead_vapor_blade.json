@@ -1,0 +1,11 @@
+{
+  "spec_version": "tone_spec_v1",
+  "id": "lead_vapor_blade",
+  "name": "Vapor Blade Lead",
+  "source": "xiwu_factory_expansion_2026_04_b",
+  "tags": ["lead", "vapor", "blade", "factory-expanded"],
+  "osc": { "sine": 0.22, "saw": 0.57, "square": 0.22, "triangle": 0.30, "noise": 0.02, "sub_octave": 0.10 },
+  "env": { "attack": 0.011, "decay": 0.24, "sustain": 0.63, "release": 0.31 },
+  "character": { "drive": 0.27, "brightness": 0.68, "stereo_width": 0.43 },
+  "eq4": { "low": 0.23, "low_mid": 0.39, "high_mid": 0.68, "high": 0.79 }
+}

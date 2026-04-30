@@ -1,0 +1,32 @@
+﻿{
+  "spec_version": "tone_spec_v1",
+  "id": "layered_bass_eq4",
+  "name": "Layered Bass EQ4",
+  "source": "tmp_js2max_exp/layered_bass_eq4_instrument.maxpat",
+  "tags": ["bass", "layered", "eq4", "amxd-migrated"],
+  "osc": {
+    "sine": 0.42,
+    "saw": 0.53,
+    "square": 0.40,
+    "triangle": 0.16,
+    "noise": 0.02,
+    "sub_octave": 0.78
+  },
+  "env": {
+    "attack": 0.005,
+    "decay": 0.24,
+    "sustain": 0.58,
+    "release": 0.35
+  },
+  "character": {
+    "drive": 0.34,
+    "brightness": 0.37,
+    "stereo_width": 0.13
+  },
+  "eq4": {
+    "low": 0.72,
+    "low_mid": 0.58,
+    "high_mid": 0.40,
+    "high": 0.32
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "spec_version": "tone_spec_v1",
+  "id": "fx_radar_ping",
+  "name": "Radar Ping FX",
+  "source": "xiwu_factory_expansion_2026_04_b",
+  "tags": ["fx", "radar", "ping", "factory-expanded"],
+  "osc": { "sine": 0.17, "saw": 0.18, "square": 0.21, "triangle": 0.26, "noise": 0.14, "sub_octave": 0.04 },
+  "env": { "attack": 0.004, "decay": 0.14, "sustain": 0.12, "release": 0.23 },
+  "character": { "drive": 0.19, "brightness": 0.88, "stereo_width": 0.58 },
+  "eq4": { "low": 0.10, "low_mid": 0.24, "high_mid": 0.83, "high": 0.96 }
+}

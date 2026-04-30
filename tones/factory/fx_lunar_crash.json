@@ -1,0 +1,11 @@
+{
+  "spec_version": "tone_spec_v1",
+  "id": "fx_lunar_crash",
+  "name": "Lunar Crash FX",
+  "source": "xiwu_factory_expansion_2026_04_b",
+  "tags": ["fx", "lunar", "crash", "factory-expanded"],
+  "osc": { "sine": 0.09, "saw": 0.35, "square": 0.16, "triangle": 0.13, "noise": 0.26, "sub_octave": 0.10 },
+  "env": { "attack": 0.01, "decay": 0.19, "sustain": 0.22, "release": 0.43 },
+  "character": { "drive": 0.48, "brightness": 0.77, "stereo_width": 0.49 },
+  "eq4": { "low": 0.17, "low_mid": 0.35, "high_mid": 0.77, "high": 0.89 }
+}

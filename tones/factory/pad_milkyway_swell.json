@@ -1,0 +1,11 @@
+{
+  "spec_version": "tone_spec_v1",
+  "id": "pad_milkyway_swell",
+  "name": "Milkyway Swell Pad",
+  "source": "xiwu_factory_expansion_2026_04_b",
+  "tags": ["pad", "swell", "space", "factory-expanded"],
+  "osc": { "sine": 0.31, "saw": 0.33, "square": 0.07, "triangle": 0.45, "noise": 0.02, "sub_octave": 0.17 },
+  "env": { "attack": 0.28, "decay": 0.61, "sustain": 0.78, "release": 1.50 },
+  "character": { "drive": 0.08, "brightness": 0.58, "stereo_width": 0.84 },
+  "eq4": { "low": 0.29, "low_mid": 0.38, "high_mid": 0.61, "high": 0.72 }
+}

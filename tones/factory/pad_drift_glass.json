@@ -1,0 +1,32 @@
+{
+  "spec_version": "tone_spec_v1",
+  "id": "pad_drift_glass",
+  "name": "Drift Glass Pad",
+  "source": "xiwu_factory_expansion_2026_04",
+  "tags": ["pad", "glass", "ambient", "factory-expanded"],
+  "osc": {
+    "sine": 0.27,
+    "saw": 0.31,
+    "square": 0.09,
+    "triangle": 0.51,
+    "noise": 0.02,
+    "sub_octave": 0.15
+  },
+  "env": {
+    "attack": 0.30,
+    "decay": 0.64,
+    "sustain": 0.72,
+    "release": 1.52
+  },
+  "character": {
+    "drive": 0.11,
+    "brightness": 0.66,
+    "stereo_width": 0.74
+  },
+  "eq4": {
+    "low": 0.28,
+    "low_mid": 0.41,
+    "high_mid": 0.67,
+    "high": 0.76
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "spec_version": "tone_spec_v1",
+  "id": "pluck_satin_chip",
+  "name": "Satin Chip Pluck",
+  "source": "xiwu_factory_expansion_2026_04_b",
+  "tags": ["pluck", "satin", "chip", "factory-expanded"],
+  "osc": { "sine": 0.21, "saw": 0.25, "square": 0.14, "triangle": 0.31, "noise": 0.02, "sub_octave": 0.07 },
+  "env": { "attack": 0.006, "decay": 0.20, "sustain": 0.21, "release": 0.22 },
+  "character": { "drive": 0.18, "brightness": 0.59, "stereo_width": 0.25 },
+  "eq4": { "low": 0.20, "low_mid": 0.39, "high_mid": 0.60, "high": 0.63 }
+}

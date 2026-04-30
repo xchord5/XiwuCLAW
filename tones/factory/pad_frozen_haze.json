@@ -1,0 +1,11 @@
+{
+  "spec_version": "tone_spec_v1",
+  "id": "pad_frozen_haze",
+  "name": "Frozen Haze Pad",
+  "source": "xiwu_factory_expansion_2026_04_b",
+  "tags": ["pad", "frozen", "haze", "factory-expanded"],
+  "osc": { "sine": 0.28, "saw": 0.26, "square": 0.08, "triangle": 0.55, "noise": 0.03, "sub_octave": 0.14 },
+  "env": { "attack": 0.31, "decay": 0.66, "sustain": 0.73, "release": 1.60 },
+  "character": { "drive": 0.10, "brightness": 0.63, "stereo_width": 0.76 },
+  "eq4": { "low": 0.27, "low_mid": 0.39, "high_mid": 0.68, "high": 0.79 }
+}

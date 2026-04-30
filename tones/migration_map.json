@@ -1,0 +1,31 @@
+﻿{
+  "generated_at": "2026-04-10",
+  "notes": "First-pass mapping from existing Max/amxd tones into XiwuCLAW ToneSpec v1.",
+  "entries": [
+    {
+      "source": "tmp_js2max_exp/layered_bass_eq4_instrument.maxpat",
+      "tone_json": "tones/factory/layered_bass_eq4.json",
+      "status": "mapped"
+    },
+    {
+      "source": "tmp_js2max_exp/layered_bass_instrument.maxpat",
+      "tone_json": "tones/factory/layered_bass_core.json",
+      "status": "mapped"
+    },
+    {
+      "source": "tmp_js2max_exp/bass_prompt_instrument.maxpat",
+      "tone_json": "tones/factory/bass_prompt_hybrid.json",
+      "status": "mapped"
+    },
+    {
+      "source": "tmp_js2max_exp/example_instrument.maxpat",
+      "tone_json": "tones/factory/example_instrument_clean.json",
+      "status": "mapped"
+    },
+    {
+      "source": "tmp_js2max_exp/example_instrument_audio.maxpat",
+      "tone_json": "tones/factory/example_instrument_audio.json",
+      "status": "mapped"
+    }
+  ]
+}

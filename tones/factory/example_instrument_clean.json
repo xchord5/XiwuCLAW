@@ -1,0 +1,32 @@
+﻿{
+  "spec_version": "tone_spec_v1",
+  "id": "example_instrument_clean",
+  "name": "Example Instrument Clean",
+  "source": "tmp_js2max_exp/example_instrument.maxpat",
+  "tags": ["demo", "clean", "amxd-migrated"],
+  "osc": {
+    "sine": 0.58,
+    "saw": 0.26,
+    "square": 0.11,
+    "triangle": 0.35,
+    "noise": 0.01,
+    "sub_octave": 0.36
+  },
+  "env": {
+    "attack": 0.015,
+    "decay": 0.35,
+    "sustain": 0.68,
+    "release": 0.52
+  },
+  "character": {
+    "drive": 0.19,
+    "brightness": 0.44,
+    "stereo_width": 0.22
+  },
+  "eq4": {
+    "low": 0.51,
+    "low_mid": 0.48,
+    "high_mid": 0.56,
+    "high": 0.62
+  }
+}

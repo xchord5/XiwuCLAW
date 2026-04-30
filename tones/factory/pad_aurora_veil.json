@@ -1,0 +1,32 @@
+{
+  "spec_version": "tone_spec_v1",
+  "id": "pad_aurora_veil",
+  "name": "Aurora Veil Pad",
+  "source": "xiwu_factory_expansion_2026_04",
+  "tags": ["pad", "lush", "aurora", "factory-expanded"],
+  "osc": {
+    "sine": 0.33,
+    "saw": 0.29,
+    "square": 0.14,
+    "triangle": 0.48,
+    "noise": 0.03,
+    "sub_octave": 0.28
+  },
+  "env": {
+    "attack": 0.26,
+    "decay": 0.62,
+    "sustain": 0.74,
+    "release": 1.40
+  },
+  "character": {
+    "drive": 0.15,
+    "brightness": 0.52,
+    "stereo_width": 0.68
+  },
+  "eq4": {
+    "low": 0.41,
+    "low_mid": 0.48,
+    "high_mid": 0.61,
+    "high": 0.67
+  }
+}

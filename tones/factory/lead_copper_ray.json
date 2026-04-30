@@ -1,0 +1,11 @@
+{
+  "spec_version": "tone_spec_v1",
+  "id": "lead_copper_ray",
+  "name": "Copper Ray Lead",
+  "source": "xiwu_factory_expansion_2026_04_b",
+  "tags": ["lead", "copper", "ray", "factory-expanded"],
+  "osc": { "sine": 0.20, "saw": 0.49, "square": 0.27, "triangle": 0.23, "noise": 0.03, "sub_octave": 0.12 },
+  "env": { "attack": 0.009, "decay": 0.20, "sustain": 0.55, "release": 0.24 },
+  "character": { "drive": 0.37, "brightness": 0.62, "stereo_width": 0.28 },
+  "eq4": { "low": 0.26, "low_mid": 0.48, "high_mid": 0.66, "high": 0.71 }
+}

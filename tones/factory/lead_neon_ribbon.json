@@ -1,0 +1,32 @@
+{
+  "spec_version": "tone_spec_v1",
+  "id": "lead_neon_ribbon",
+  "name": "Neon Ribbon Lead",
+  "source": "xiwu_factory_expansion_2026_04",
+  "tags": ["lead", "neon", "electro", "factory-expanded"],
+  "osc": {
+    "sine": 0.24,
+    "saw": 0.61,
+    "square": 0.27,
+    "triangle": 0.25,
+    "noise": 0.02,
+    "sub_octave": 0.14
+  },
+  "env": {
+    "attack": 0.008,
+    "decay": 0.22,
+    "sustain": 0.61,
+    "release": 0.28
+  },
+  "character": {
+    "drive": 0.33,
+    "brightness": 0.71,
+    "stereo_width": 0.41
+  },
+  "eq4": {
+    "low": 0.26,
+    "low_mid": 0.43,
+    "high_mid": 0.69,
+    "high": 0.78
+  }
+}

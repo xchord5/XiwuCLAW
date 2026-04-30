@@ -1,0 +1,32 @@
+{
+  "spec_version": "tone_spec_v1",
+  "id": "bass_velvet_sub",
+  "name": "Velvet Sub Bass",
+  "source": "xiwu_factory_expansion_2026_04",
+  "tags": ["bass", "soft", "sub", "factory-expanded"],
+  "osc": {
+    "sine": 0.64,
+    "saw": 0.12,
+    "square": 0.19,
+    "triangle": 0.29,
+    "noise": 0.00,
+    "sub_octave": 0.77
+  },
+  "env": {
+    "attack": 0.009,
+    "decay": 0.28,
+    "sustain": 0.71,
+    "release": 0.36
+  },
+  "character": {
+    "drive": 0.18,
+    "brightness": 0.18,
+    "stereo_width": 0.09
+  },
+  "eq4": {
+    "low": 0.79,
+    "low_mid": 0.46,
+    "high_mid": 0.18,
+    "high": 0.12
+  }
+}

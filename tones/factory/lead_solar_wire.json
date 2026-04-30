@@ -1,0 +1,11 @@
+{
+  "spec_version": "tone_spec_v1",
+  "id": "lead_solar_wire",
+  "name": "Solar Wire Lead",
+  "source": "xiwu_factory_expansion_2026_04_b",
+  "tags": ["lead", "solar", "wire", "factory-expanded"],
+  "osc": { "sine": 0.18, "saw": 0.63, "square": 0.25, "triangle": 0.18, "noise": 0.03, "sub_octave": 0.13 },
+  "env": { "attack": 0.007, "decay": 0.19, "sustain": 0.58, "release": 0.23 },
+  "character": { "drive": 0.41, "brightness": 0.76, "stereo_width": 0.30 },
+  "eq4": { "low": 0.24, "low_mid": 0.40, "high_mid": 0.72, "high": 0.84 }
+}

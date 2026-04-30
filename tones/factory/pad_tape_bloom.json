@@ -1,0 +1,32 @@
+{
+  "spec_version": "tone_spec_v1",
+  "id": "pad_tape_bloom",
+  "name": "Tape Bloom Pad",
+  "source": "xiwu_factory_expansion_2026_04",
+  "tags": ["pad", "tape", "warm", "factory-expanded"],
+  "osc": {
+    "sine": 0.39,
+    "saw": 0.24,
+    "square": 0.12,
+    "triangle": 0.41,
+    "noise": 0.05,
+    "sub_octave": 0.25
+  },
+  "env": {
+    "attack": 0.21,
+    "decay": 0.56,
+    "sustain": 0.70,
+    "release": 1.16
+  },
+  "character": {
+    "drive": 0.22,
+    "brightness": 0.39,
+    "stereo_width": 0.57
+  },
+  "eq4": {
+    "low": 0.48,
+    "low_mid": 0.56,
+    "high_mid": 0.52,
+    "high": 0.45
+  }
+}

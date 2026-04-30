@@ -1,0 +1,11 @@
+{
+  "spec_version": "tone_spec_v1",
+  "id": "pluck_coral_ping",
+  "name": "Coral Ping Pluck",
+  "source": "xiwu_factory_expansion_2026_04_b",
+  "tags": ["pluck", "coral", "ping", "factory-expanded"],
+  "osc": { "sine": 0.19, "saw": 0.28, "square": 0.13, "triangle": 0.41, "noise": 0.01, "sub_octave": 0.05 },
+  "env": { "attack": 0.005, "decay": 0.18, "sustain": 0.16, "release": 0.24 },
+  "character": { "drive": 0.16, "brightness": 0.83, "stereo_width": 0.28 },
+  "eq4": { "low": 0.13, "low_mid": 0.27, "high_mid": 0.77, "high": 0.91 }
+}

@@ -1,0 +1,32 @@
+{
+  "spec_version": "tone_spec_v1",
+  "id": "lead_pixel_cry",
+  "name": "Pixel Cry Lead",
+  "source": "xiwu_factory_expansion_2026_04",
+  "tags": ["lead", "digital", "experimental-electronic", "factory-expanded"],
+  "osc": {
+    "sine": 0.14,
+    "saw": 0.54,
+    "square": 0.41,
+    "triangle": 0.13,
+    "noise": 0.07,
+    "sub_octave": 0.10
+  },
+  "env": {
+    "attack": 0.004,
+    "decay": 0.14,
+    "sustain": 0.47,
+    "release": 0.19
+  },
+  "character": {
+    "drive": 0.58,
+    "brightness": 0.74,
+    "stereo_width": 0.29
+  },
+  "eq4": {
+    "low": 0.24,
+    "low_mid": 0.44,
+    "high_mid": 0.79,
+    "high": 0.83
+  }
+}

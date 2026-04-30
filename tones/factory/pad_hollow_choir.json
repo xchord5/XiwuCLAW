@@ -1,0 +1,32 @@
+{
+  "spec_version": "tone_spec_v1",
+  "id": "pad_hollow_choir",
+  "name": "Hollow Choir Pad",
+  "source": "xiwu_factory_expansion_2026_04",
+  "tags": ["pad", "choir", "hollow", "factory-expanded"],
+  "osc": {
+    "sine": 0.29,
+    "saw": 0.18,
+    "square": 0.10,
+    "triangle": 0.56,
+    "noise": 0.04,
+    "sub_octave": 0.20
+  },
+  "env": {
+    "attack": 0.34,
+    "decay": 0.72,
+    "sustain": 0.77,
+    "release": 1.68
+  },
+  "character": {
+    "drive": 0.12,
+    "brightness": 0.47,
+    "stereo_width": 0.71
+  },
+  "eq4": {
+    "low": 0.36,
+    "low_mid": 0.44,
+    "high_mid": 0.63,
+    "high": 0.59
+  }
+}

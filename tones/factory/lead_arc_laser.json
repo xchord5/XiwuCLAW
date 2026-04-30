@@ -1,0 +1,11 @@
+{
+  "spec_version": "tone_spec_v1",
+  "id": "lead_arc_laser",
+  "name": "Arc Laser Lead",
+  "source": "xiwu_factory_expansion_2026_04_b",
+  "tags": ["lead", "laser", "arc", "factory-expanded"],
+  "osc": { "sine": 0.11, "saw": 0.61, "square": 0.35, "triangle": 0.09, "noise": 0.05, "sub_octave": 0.08 },
+  "env": { "attack": 0.003, "decay": 0.11, "sustain": 0.41, "release": 0.14 },
+  "character": { "drive": 0.65, "brightness": 0.86, "stereo_width": 0.21 },
+  "eq4": { "low": 0.18, "low_mid": 0.37, "high_mid": 0.82, "high": 0.92 }
+}

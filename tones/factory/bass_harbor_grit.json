@@ -1,0 +1,11 @@
+{
+  "spec_version": "tone_spec_v1",
+  "id": "bass_harbor_grit",
+  "name": "Harbor Grit Bass",
+  "source": "xiwu_factory_expansion_2026_04_b",
+  "tags": ["bass", "grit", "urban", "factory-expanded"],
+  "osc": { "sine": 0.31, "saw": 0.49, "square": 0.33, "triangle": 0.11, "noise": 0.06, "sub_octave": 0.59 },
+  "env": { "attack": 0.003, "decay": 0.14, "sustain": 0.47, "release": 0.16 },
+  "character": { "drive": 0.58, "brightness": 0.37, "stereo_width": 0.09 },
+  "eq4": { "low": 0.75, "low_mid": 0.64, "high_mid": 0.35, "high": 0.17 }
+}

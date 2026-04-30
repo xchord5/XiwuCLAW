@@ -1,0 +1,32 @@
+{
+  "spec_version": "tone_spec_v1",
+  "id": "fx_chrome_burst",
+  "name": "Chrome Burst FX",
+  "source": "xiwu_factory_expansion_2026_04",
+  "tags": ["fx", "chrome", "burst", "factory-expanded"],
+  "osc": {
+    "sine": 0.12,
+    "saw": 0.43,
+    "square": 0.22,
+    "triangle": 0.16,
+    "noise": 0.18,
+    "sub_octave": 0.09
+  },
+  "env": {
+    "attack": 0.02,
+    "decay": 0.18,
+    "sustain": 0.28,
+    "release": 0.48
+  },
+  "character": {
+    "drive": 0.54,
+    "brightness": 0.80,
+    "stereo_width": 0.52
+  },
+  "eq4": {
+    "low": 0.16,
+    "low_mid": 0.33,
+    "high_mid": 0.79,
+    "high": 0.90
+  }
+}

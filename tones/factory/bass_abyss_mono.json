@@ -1,0 +1,32 @@
+{
+  "spec_version": "tone_spec_v1",
+  "id": "bass_abyss_mono",
+  "name": "Abyss Mono Bass",
+  "source": "xiwu_factory_expansion_2026_04",
+  "tags": ["bass", "mono", "sub", "factory-expanded"],
+  "osc": {
+    "sine": 0.50,
+    "saw": 0.18,
+    "square": 0.44,
+    "triangle": 0.14,
+    "noise": 0.01,
+    "sub_octave": 0.88
+  },
+  "env": {
+    "attack": 0.004,
+    "decay": 0.18,
+    "sustain": 0.63,
+    "release": 0.20
+  },
+  "character": {
+    "drive": 0.34,
+    "brightness": 0.22,
+    "stereo_width": 0.06
+  },
+  "eq4": {
+    "low": 0.84,
+    "low_mid": 0.52,
+    "high_mid": 0.26,
+    "high": 0.16
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "spec_version": "tone_spec_v1",
+  "id": "fx_storm_sweep",
+  "name": "Storm Sweep FX",
+  "source": "xiwu_factory_expansion_2026_04",
+  "tags": ["fx", "storm", "sweep", "factory-expanded"],
+  "osc": {
+    "sine": 0.14,
+    "saw": 0.34,
+    "square": 0.08,
+    "triangle": 0.19,
+    "noise": 0.34,
+    "sub_octave": 0.10
+  },
+  "env": {
+    "attack": 0.12,
+    "decay": 0.41,
+    "sustain": 0.47,
+    "release": 1.22
+  },
+  "character": {
+    "drive": 0.31,
+    "brightness": 0.67,
+    "stereo_width": 0.79
+  },
+  "eq4": {
+    "low": 0.23,
+    "low_mid": 0.40,
+    "high_mid": 0.68,
+    "high": 0.81
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "spec_version": "tone_spec_v1",
+  "id": "pluck_nylon_spark",
+  "name": "Nylon Spark Pluck",
+  "source": "xiwu_factory_expansion_2026_04",
+  "tags": ["pluck", "nylon", "spark", "factory-expanded"],
+  "osc": {
+    "sine": 0.23,
+    "saw": 0.24,
+    "square": 0.14,
+    "triangle": 0.34,
+    "noise": 0.02,
+    "sub_octave": 0.07
+  },
+  "env": {
+    "attack": 0.005,
+    "decay": 0.17,
+    "sustain": 0.24,
+    "release": 0.21
+  },
+  "character": {
+    "drive": 0.18,
+    "brightness": 0.67,
+    "stereo_width": 0.27
+  },
+  "eq4": {
+    "low": 0.19,
+    "low_mid": 0.33,
+    "high_mid": 0.63,
+    "high": 0.73
+  }
+}

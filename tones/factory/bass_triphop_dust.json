@@ -1,0 +1,32 @@
+{
+  "spec_version": "tone_spec_v1",
+  "id": "bass_triphop_dust",
+  "name": "TripHop Dust Bass",
+  "source": "xiwu_factory_expansion_2026_04",
+  "tags": ["bass", "triphop", "dusty", "factory-expanded"],
+  "osc": {
+    "sine": 0.40,
+    "saw": 0.28,
+    "square": 0.34,
+    "triangle": 0.20,
+    "noise": 0.08,
+    "sub_octave": 0.68
+  },
+  "env": {
+    "attack": 0.007,
+    "decay": 0.24,
+    "sustain": 0.55,
+    "release": 0.30
+  },
+  "character": {
+    "drive": 0.39,
+    "brightness": 0.31,
+    "stereo_width": 0.17
+  },
+  "eq4": {
+    "low": 0.73,
+    "low_mid": 0.59,
+    "high_mid": 0.33,
+    "high": 0.21
+  }
+}

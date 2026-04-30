@@ -1,0 +1,11 @@
+{
+  "spec_version": "tone_spec_v1",
+  "id": "fx_comet_tail",
+  "name": "Comet Tail FX",
+  "source": "xiwu_factory_expansion_2026_04_b",
+  "tags": ["fx", "comet", "tail", "factory-expanded"],
+  "osc": { "sine": 0.11, "saw": 0.32, "square": 0.12, "triangle": 0.18, "noise": 0.31, "sub_octave": 0.08 },
+  "env": { "attack": 0.08, "decay": 0.32, "sustain": 0.40, "release": 1.00 },
+  "character": { "drive": 0.27, "brightness": 0.71, "stereo_width": 0.73 },
+  "eq4": { "low": 0.18, "low_mid": 0.33, "high_mid": 0.70, "high": 0.82 }
+}

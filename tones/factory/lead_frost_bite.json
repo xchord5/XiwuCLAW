@@ -1,0 +1,32 @@
+{
+  "spec_version": "tone_spec_v1",
+  "id": "lead_frost_bite",
+  "name": "Frost Bite Lead",
+  "source": "xiwu_factory_expansion_2026_04",
+  "tags": ["lead", "icy", "bright", "factory-expanded"],
+  "osc": {
+    "sine": 0.16,
+    "saw": 0.48,
+    "square": 0.19,
+    "triangle": 0.39,
+    "noise": 0.02,
+    "sub_octave": 0.11
+  },
+  "env": {
+    "attack": 0.010,
+    "decay": 0.17,
+    "sustain": 0.54,
+    "release": 0.22
+  },
+  "character": {
+    "drive": 0.24,
+    "brightness": 0.86,
+    "stereo_width": 0.36
+  },
+  "eq4": {
+    "low": 0.20,
+    "low_mid": 0.37,
+    "high_mid": 0.75,
+    "high": 0.88
+  }
+}

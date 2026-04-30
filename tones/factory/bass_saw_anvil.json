@@ -1,0 +1,11 @@
+{
+  "spec_version": "tone_spec_v1",
+  "id": "bass_saw_anvil",
+  "name": "Saw Anvil Bass",
+  "source": "xiwu_factory_expansion_2026_04_b",
+  "tags": ["bass", "saw", "anvil", "factory-expanded"],
+  "osc": { "sine": 0.20, "saw": 0.68, "square": 0.29, "triangle": 0.08, "noise": 0.05, "sub_octave": 0.47 },
+  "env": { "attack": 0.002, "decay": 0.11, "sustain": 0.43, "release": 0.14 },
+  "character": { "drive": 0.69, "brightness": 0.46, "stereo_width": 0.08 },
+  "eq4": { "low": 0.72, "low_mid": 0.69, "high_mid": 0.41, "high": 0.19 }
+}

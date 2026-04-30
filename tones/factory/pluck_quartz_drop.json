@@ -1,0 +1,32 @@
+{
+  "spec_version": "tone_spec_v1",
+  "id": "pluck_quartz_drop",
+  "name": "Quartz Drop Pluck",
+  "source": "xiwu_factory_expansion_2026_04",
+  "tags": ["pluck", "glass", "tight", "factory-expanded"],
+  "osc": {
+    "sine": 0.12,
+    "saw": 0.44,
+    "square": 0.16,
+    "triangle": 0.38,
+    "noise": 0.02,
+    "sub_octave": 0.08
+  },
+  "env": {
+    "attack": 0.003,
+    "decay": 0.16,
+    "sustain": 0.22,
+    "release": 0.18
+  },
+  "character": {
+    "drive": 0.21,
+    "brightness": 0.78,
+    "stereo_width": 0.26
+  },
+  "eq4": {
+    "low": 0.18,
+    "low_mid": 0.36,
+    "high_mid": 0.74,
+    "high": 0.86
+  }
+}

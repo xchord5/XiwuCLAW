@@ -1,0 +1,11 @@
+{
+  "spec_version": "tone_spec_v1",
+  "id": "bass_rain_tunnel",
+  "name": "Rain Tunnel Bass",
+  "source": "xiwu_factory_expansion_2026_04_b",
+  "tags": ["bass", "triphop", "wet", "factory-expanded"],
+  "osc": { "sine": 0.38, "saw": 0.26, "square": 0.31, "triangle": 0.17, "noise": 0.09, "sub_octave": 0.66 },
+  "env": { "attack": 0.007, "decay": 0.22, "sustain": 0.53, "release": 0.28 },
+  "character": { "drive": 0.36, "brightness": 0.29, "stereo_width": 0.16 },
+  "eq4": { "low": 0.74, "low_mid": 0.57, "high_mid": 0.30, "high": 0.18 }
+}

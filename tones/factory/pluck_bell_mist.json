@@ -1,0 +1,32 @@
+{
+  "spec_version": "tone_spec_v1",
+  "id": "pluck_bell_mist",
+  "name": "Bell Mist Pluck",
+  "source": "xiwu_factory_expansion_2026_04",
+  "tags": ["pluck", "bell", "mist", "factory-expanded"],
+  "osc": {
+    "sine": 0.17,
+    "saw": 0.29,
+    "square": 0.11,
+    "triangle": 0.46,
+    "noise": 0.01,
+    "sub_octave": 0.05
+  },
+  "env": {
+    "attack": 0.006,
+    "decay": 0.23,
+    "sustain": 0.18,
+    "release": 0.29
+  },
+  "character": {
+    "drive": 0.14,
+    "brightness": 0.82,
+    "stereo_width": 0.31
+  },
+  "eq4": {
+    "low": 0.14,
+    "low_mid": 0.29,
+    "high_mid": 0.76,
+    "high": 0.89
+  }
+}

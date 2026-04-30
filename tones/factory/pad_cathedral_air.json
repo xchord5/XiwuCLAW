@@ -1,0 +1,11 @@
+{
+  "spec_version": "tone_spec_v1",
+  "id": "pad_cathedral_air",
+  "name": "Cathedral Air Pad",
+  "source": "xiwu_factory_expansion_2026_04_b",
+  "tags": ["pad", "cathedral", "air", "factory-expanded"],
+  "osc": { "sine": 0.23, "saw": 0.19, "square": 0.05, "triangle": 0.61, "noise": 0.04, "sub_octave": 0.13 },
+  "env": { "attack": 0.38, "decay": 0.74, "sustain": 0.80, "release": 1.82 },
+  "character": { "drive": 0.07, "brightness": 0.54, "stereo_width": 0.79 },
+  "eq4": { "low": 0.25, "low_mid": 0.36, "high_mid": 0.65, "high": 0.68 }
+}

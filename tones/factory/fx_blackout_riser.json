@@ -1,0 +1,32 @@
+{
+  "spec_version": "tone_spec_v1",
+  "id": "fx_blackout_riser",
+  "name": "Blackout Riser FX",
+  "source": "xiwu_factory_expansion_2026_04",
+  "tags": ["fx", "riser", "dark", "factory-expanded"],
+  "osc": {
+    "sine": 0.16,
+    "saw": 0.46,
+    "square": 0.12,
+    "triangle": 0.22,
+    "noise": 0.22,
+    "sub_octave": 0.12
+  },
+  "env": {
+    "attack": 0.18,
+    "decay": 0.44,
+    "sustain": 0.58,
+    "release": 1.10
+  },
+  "character": {
+    "drive": 0.37,
+    "brightness": 0.63,
+    "stereo_width": 0.64
+  },
+  "eq4": {
+    "low": 0.24,
+    "low_mid": 0.39,
+    "high_mid": 0.69,
+    "high": 0.77
+  }
+}

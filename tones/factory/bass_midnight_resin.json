@@ -1,0 +1,11 @@
+{
+  "spec_version": "tone_spec_v1",
+  "id": "bass_midnight_resin",
+  "name": "Midnight Resin Bass",
+  "source": "xiwu_factory_expansion_2026_04_b",
+  "tags": ["bass", "warm", "resin", "factory-expanded"],
+  "osc": { "sine": 0.56, "saw": 0.17, "square": 0.28, "triangle": 0.22, "noise": 0.01, "sub_octave": 0.74 },
+  "env": { "attack": 0.006, "decay": 0.21, "sustain": 0.66, "release": 0.27 },
+  "character": { "drive": 0.22, "brightness": 0.20, "stereo_width": 0.10 },
+  "eq4": { "low": 0.78, "low_mid": 0.49, "high_mid": 0.22, "high": 0.14 }
+}

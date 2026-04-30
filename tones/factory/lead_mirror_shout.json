@@ -1,0 +1,11 @@
+{
+  "spec_version": "tone_spec_v1",
+  "id": "lead_mirror_shout",
+  "name": "Mirror Shout Lead",
+  "source": "xiwu_factory_expansion_2026_04_b",
+  "tags": ["lead", "mirror", "shout", "factory-expanded"],
+  "osc": { "sine": 0.13, "saw": 0.52, "square": 0.38, "triangle": 0.14, "noise": 0.06, "sub_octave": 0.11 },
+  "env": { "attack": 0.005, "decay": 0.13, "sustain": 0.44, "release": 0.18 },
+  "character": { "drive": 0.60, "brightness": 0.73, "stereo_width": 0.25 },
+  "eq4": { "low": 0.21, "low_mid": 0.43, "high_mid": 0.78, "high": 0.85 }
+}

@@ -1,0 +1,32 @@
+{
+  "spec_version": "tone_spec_v1",
+  "id": "pluck_ice_needle",
+  "name": "Ice Needle Pluck",
+  "source": "xiwu_factory_expansion_2026_04",
+  "tags": ["pluck", "icy", "pointed", "factory-expanded"],
+  "osc": {
+    "sine": 0.10,
+    "saw": 0.47,
+    "square": 0.19,
+    "triangle": 0.28,
+    "noise": 0.04,
+    "sub_octave": 0.06
+  },
+  "env": {
+    "attack": 0.002,
+    "decay": 0.13,
+    "sustain": 0.17,
+    "release": 0.16
+  },
+  "character": {
+    "drive": 0.32,
+    "brightness": 0.91,
+    "stereo_width": 0.20
+  },
+  "eq4": {
+    "low": 0.12,
+    "low_mid": 0.28,
+    "high_mid": 0.81,
+    "high": 0.93
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "spec_version": "tone_spec_v1",
+  "id": "bass_iron_pulse",
+  "name": "Iron Pulse Bass",
+  "source": "xiwu_factory_expansion_2026_04",
+  "tags": ["bass", "industrial", "pulse", "factory-expanded"],
+  "osc": {
+    "sine": 0.26,
+    "saw": 0.58,
+    "square": 0.51,
+    "triangle": 0.06,
+    "noise": 0.06,
+    "sub_octave": 0.62
+  },
+  "env": {
+    "attack": 0.002,
+    "decay": 0.12,
+    "sustain": 0.42,
+    "release": 0.16
+  },
+  "character": {
+    "drive": 0.67,
+    "brightness": 0.44,
+    "stereo_width": 0.08
+  },
+  "eq4": {
+    "low": 0.77,
+    "low_mid": 0.68,
+    "high_mid": 0.39,
+    "high": 0.18
+  }
+}

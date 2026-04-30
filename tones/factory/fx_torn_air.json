@@ -1,0 +1,11 @@
+{
+  "spec_version": "tone_spec_v1",
+  "id": "fx_torn_air",
+  "name": "Torn Air FX",
+  "source": "xiwu_factory_expansion_2026_04_b",
+  "tags": ["fx", "air", "torn", "factory-expanded"],
+  "osc": { "sine": 0.07, "saw": 0.29, "square": 0.09, "triangle": 0.14, "noise": 0.36, "sub_octave": 0.05 },
+  "env": { "attack": 0.06, "decay": 0.27, "sustain": 0.34, "release": 0.88 },
+  "character": { "drive": 0.33, "brightness": 0.69, "stereo_width": 0.82 },
+  "eq4": { "low": 0.12, "low_mid": 0.28, "high_mid": 0.74, "high": 0.86 }
+}

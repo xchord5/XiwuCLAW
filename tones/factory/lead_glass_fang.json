@@ -1,0 +1,32 @@
+{
+  "spec_version": "tone_spec_v1",
+  "id": "lead_glass_fang",
+  "name": "Glass Fang Lead",
+  "source": "xiwu_factory_expansion_2026_04",
+  "tags": ["lead", "glass", "sharp", "factory-expanded"],
+  "osc": {
+    "sine": 0.18,
+    "saw": 0.66,
+    "square": 0.24,
+    "triangle": 0.21,
+    "noise": 0.03,
+    "sub_octave": 0.16
+  },
+  "env": {
+    "attack": 0.006,
+    "decay": 0.20,
+    "sustain": 0.57,
+    "release": 0.24
+  },
+  "character": {
+    "drive": 0.42,
+    "brightness": 0.77,
+    "stereo_width": 0.33
+  },
+  "eq4": {
+    "low": 0.29,
+    "low_mid": 0.46,
+    "high_mid": 0.73,
+    "high": 0.82
+  }
+}

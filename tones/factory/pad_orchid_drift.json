@@ -1,0 +1,11 @@
+{
+  "spec_version": "tone_spec_v1",
+  "id": "pad_orchid_drift",
+  "name": "Orchid Drift Pad",
+  "source": "xiwu_factory_expansion_2026_04_b",
+  "tags": ["pad", "orchid", "drift", "factory-expanded"],
+  "osc": { "sine": 0.35, "saw": 0.22, "square": 0.09, "triangle": 0.47, "noise": 0.04, "sub_octave": 0.20 },
+  "env": { "attack": 0.24, "decay": 0.58, "sustain": 0.75, "release": 1.33 },
+  "character": { "drive": 0.11, "brightness": 0.50, "stereo_width": 0.73 },
+  "eq4": { "low": 0.33, "low_mid": 0.43, "high_mid": 0.57, "high": 0.63 }
+}

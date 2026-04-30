@@ -1,0 +1,11 @@
+{
+  "spec_version": "tone_spec_v1",
+  "id": "pad_rainbow_fog",
+  "name": "Rainbow Fog Pad",
+  "source": "xiwu_factory_expansion_2026_04_b",
+  "tags": ["pad", "rainbow", "fog", "factory-expanded"],
+  "osc": { "sine": 0.34, "saw": 0.27, "square": 0.08, "triangle": 0.43, "noise": 0.05, "sub_octave": 0.16 },
+  "env": { "attack": 0.26, "decay": 0.53, "sustain": 0.72, "release": 1.21 },
+  "character": { "drive": 0.13, "brightness": 0.61, "stereo_width": 0.81 },
+  "eq4": { "low": 0.30, "low_mid": 0.40, "high_mid": 0.64, "high": 0.74 }
+}

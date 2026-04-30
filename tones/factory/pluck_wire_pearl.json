@@ -1,0 +1,11 @@
+{
+  "spec_version": "tone_spec_v1",
+  "id": "pluck_wire_pearl",
+  "name": "Wire Pearl Pluck",
+  "source": "xiwu_factory_expansion_2026_04_b",
+  "tags": ["pluck", "wire", "pearl", "factory-expanded"],
+  "osc": { "sine": 0.17, "saw": 0.42, "square": 0.19, "triangle": 0.24, "noise": 0.03, "sub_octave": 0.08 },
+  "env": { "attack": 0.004, "decay": 0.15, "sustain": 0.23, "release": 0.18 },
+  "character": { "drive": 0.30, "brightness": 0.73, "stereo_width": 0.19 },
+  "eq4": { "low": 0.18, "low_mid": 0.34, "high_mid": 0.70, "high": 0.79 }
+}

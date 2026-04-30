@@ -1,0 +1,32 @@
+{
+  "spec_version": "tone_spec_v1",
+  "id": "lead_brass_comet",
+  "name": "Brass Comet Lead",
+  "source": "xiwu_factory_expansion_2026_04",
+  "tags": ["lead", "brass", "comet", "factory-expanded"],
+  "osc": {
+    "sine": 0.21,
+    "saw": 0.57,
+    "square": 0.31,
+    "triangle": 0.19,
+    "noise": 0.04,
+    "sub_octave": 0.18
+  },
+  "env": {
+    "attack": 0.012,
+    "decay": 0.25,
+    "sustain": 0.59,
+    "release": 0.31
+  },
+  "character": {
+    "drive": 0.46,
+    "brightness": 0.64,
+    "stereo_width": 0.28
+  },
+  "eq4": {
+    "low": 0.31,
+    "low_mid": 0.54,
+    "high_mid": 0.66,
+    "high": 0.70
+  }
+}

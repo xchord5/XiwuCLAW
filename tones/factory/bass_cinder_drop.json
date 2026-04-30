@@ -1,0 +1,11 @@
+{
+  "spec_version": "tone_spec_v1",
+  "id": "bass_cinder_drop",
+  "name": "Cinder Drop Bass",
+  "source": "xiwu_factory_expansion_2026_04_b",
+  "tags": ["bass", "dark", "drop", "factory-expanded"],
+  "osc": { "sine": 0.44, "saw": 0.24, "square": 0.42, "triangle": 0.12, "noise": 0.02, "sub_octave": 0.82 },
+  "env": { "attack": 0.004, "decay": 0.15, "sustain": 0.60, "release": 0.19 },
+  "character": { "drive": 0.38, "brightness": 0.24, "stereo_width": 0.07 },
+  "eq4": { "low": 0.81, "low_mid": 0.55, "high_mid": 0.27, "high": 0.15 }
+}

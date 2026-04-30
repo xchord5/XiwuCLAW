@@ -1,0 +1,32 @@
+﻿{
+  "spec_version": "tone_spec_v1",
+  "id": "layered_bass_core",
+  "name": "Layered Bass Core",
+  "source": "tmp_js2max_exp/layered_bass_instrument.maxpat",
+  "tags": ["bass", "stacked", "amxd-migrated"],
+  "osc": {
+    "sine": 0.38,
+    "saw": 0.49,
+    "square": 0.45,
+    "triangle": 0.12,
+    "noise": 0.01,
+    "sub_octave": 0.83
+  },
+  "env": {
+    "attack": 0.004,
+    "decay": 0.18,
+    "sustain": 0.62,
+    "release": 0.29
+  },
+  "character": {
+    "drive": 0.41,
+    "brightness": 0.29,
+    "stereo_width": 0.10
+  },
+  "eq4": {
+    "low": 0.76,
+    "low_mid": 0.55,
+    "high_mid": 0.36,
+    "high": 0.27
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "spec_version": "tone_spec_v1",
+  "id": "pluck_amber_click",
+  "name": "Amber Click Pluck",
+  "source": "xiwu_factory_expansion_2026_04_b",
+  "tags": ["pluck", "amber", "click", "factory-expanded"],
+  "osc": { "sine": 0.18, "saw": 0.36, "square": 0.17, "triangle": 0.26, "noise": 0.03, "sub_octave": 0.05 },
+  "env": { "attack": 0.004, "decay": 0.14, "sustain": 0.18, "release": 0.17 },
+  "character": { "drive": 0.26, "brightness": 0.68, "stereo_width": 0.17 },
+  "eq4": { "low": 0.17, "low_mid": 0.36, "high_mid": 0.66, "high": 0.74 }
+}

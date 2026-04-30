@@ -1,0 +1,32 @@
+{
+  "spec_version": "tone_spec_v1",
+  "id": "pad_sunset_foam",
+  "name": "Sunset Foam Pad",
+  "source": "xiwu_factory_expansion_2026_04",
+  "tags": ["pad", "soft", "wide", "factory-expanded"],
+  "osc": {
+    "sine": 0.36,
+    "saw": 0.26,
+    "square": 0.07,
+    "triangle": 0.44,
+    "noise": 0.03,
+    "sub_octave": 0.18
+  },
+  "env": {
+    "attack": 0.22,
+    "decay": 0.52,
+    "sustain": 0.76,
+    "release": 1.24
+  },
+  "character": {
+    "drive": 0.09,
+    "brightness": 0.49,
+    "stereo_width": 0.81
+  },
+  "eq4": {
+    "low": 0.34,
+    "low_mid": 0.42,
+    "high_mid": 0.58,
+    "high": 0.64
+  }
+}

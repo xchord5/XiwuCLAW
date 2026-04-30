@@ -1,0 +1,11 @@
+{
+  "spec_version": "tone_spec_v1",
+  "id": "fx_shiver_noise",
+  "name": "Shiver Noise FX",
+  "source": "xiwu_factory_expansion_2026_04_b",
+  "tags": ["fx", "shiver", "noise", "factory-expanded"],
+  "osc": { "sine": 0.08, "saw": 0.24, "square": 0.08, "triangle": 0.16, "noise": 0.39, "sub_octave": 0.05 },
+  "env": { "attack": 0.05, "decay": 0.25, "sustain": 0.35, "release": 0.74 },
+  "character": { "drive": 0.30, "brightness": 0.67, "stereo_width": 0.76 },
+  "eq4": { "low": 0.14, "low_mid": 0.29, "high_mid": 0.73, "high": 0.87 }
+}
