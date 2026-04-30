@@ -208,23 +208,20 @@ XiwuCLAW 是一套完整的 AI 音乐编曲工具链，通过 QQ 语音消息与
 
 ---
 
-## 下一步：基于 Hermes 的自主学习音乐编曲智能体
+## 下一步：借鉴 Hermes 架构的自主学习音乐编曲智能体
 
-当前工具链是**命令驱动**的 —— 用户发指令，Agent 执行。下一步将升级为 **Hermes 协议驱动的自主编曲智能体**，实现以下目标：
+当前工具链是**命令驱动**的 —— 用户发指令，Agent 执行。下一步将借鉴 [Hermes Agent](https://github.com/NousResearch/hermes-agent)（Nous Research 开发的自改进 AI Agent 框架）的架构模式，将其核心子系统适配到音乐编曲领域，实现自主学习与自主编排。
 
-### Hermes 协议
+### 架构借鉴方向
 
-Hermes 是一个异步事件驱动的通信协议，原本用于智能家居/语音助手。我们将它改造为**音乐编曲领域的事件总线**：
+Hermes 是一个成熟的 Agent 框架（v0.11.0，40+ 工具、Skills 系统、SQLite FTS5 记忆、后台 Curator 维护）。我们不是采用一个"事件驱动协议"，而是将以下四个子系统引入 XiwuCLAW：
 
-```
-[用户 QQ] ←→ [NapCat/OneBot] ←→ [Agent 消息总线]
-                                      |
-                    +-----------------+-----------------+
-                    |                 |                 |
-              [Music Event]    [DAW Event]       [Memory Event]
-                    |                 |                 |
-              [生成节点]         [状态节点]         [学习节点]
-```
+| Hermes 子系统 | XiwuCLAW 适配方案 |
+|---|---|
+| **Skills 渐进式披露** — 轻量元数据列表 → 按需加载完整指令 | 将"和声模式"、"风格模板"、"编曲手法"封装为音乐 Skills，按需加载到上下文 |
+| **SQLite + FTS5 记忆检索** — 跨会话全文搜索 | 将 Harmony Memory、音色偏好、节奏模式从 JSONL 升级为 SQLite FTS5 存储 |
+| **Curator 后台维护** — 自动标记未使用技能为 stale/archived | 自动归档过时的和声模式，聚类合并相近风格偏好，保持记忆库精炼 |
+| **Toolset 动态可用性** — check_fn 实时检测工具依赖 | 将 11 个音乐工具分组为 toolset（生成组/分析组/后处理组），根据 AbletonOSC/Probe 连接状态动态启用 |
 
 ### 自主学习能力
 
@@ -277,30 +274,17 @@ Hermes 是一个异步事件驱动的通信协议，原本用于智能家居/语
 [反馈学习] → 用户"不错"/"换一下" → 更新偏好记忆
 ```
 
-### 事件驱动节点
-
-每个节点是独立的 Hermes 处理器，通过事件总线通信：
-
-| 节点 | 订阅事件 | 发布事件 |
-|------|----------|----------|
-| `harmony_detector` | `new_midi_received` | `harmony_analyzed`, `harmony_memory_updated` |
-| `melody_generator` | `harmony_ready` | `melody_generated`, `midi_placed` |
-| `rhythm_picker` | `harmony_ready`, `user_feedback` | `rhythm_selected` |
-| `arranger` | `all_tracks_ready` | `breakdown_placed` |
-| `memory_learner` | `user_feedback`, `tool_completed` | `preference_updated` |
-| `style_classifier` | `session_started` | `style_profile_ready` |
-
 ### 技术路线
 
 1. **第一阶段**：实现 Harmony Memory 持久化 + 检索
-   - 将 harmony_detect 结果存入 JSON 记忆库
+   - 将 harmony_detect 结果存入 SQLite FTS5 记忆库
    - melody_generate 前自动检索相似和声
    - QQ 交互确认机制
 
-2. **第二阶段**：实现事件驱动工具链
-   - 将当前的线性执行改为 Hermes 事件流
-   - 每个工具独立为节点，通过事件触发
-   - 支持并行节点（旋律+鼓点同时生成）
+2. **第二阶段**：引入 Skills 系统 + Curator 后台维护
+   - 将音乐编排模式封装为 Skills（渐进式披露到上下文）
+   - Curator 自动标记过时模式、合并相近风格
+   - Toolset 动态检测（AbletonOSC/Probe 在线状态驱动工具可用性）
 
 3. **第三阶段**：自主编曲决策
    - Agent 根据曲目结构自动决定需要哪些轨道
